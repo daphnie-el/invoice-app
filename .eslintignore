@@ -1,0 +1,8 @@
+src/styles/*.css
+src/**/*.css
+src/api/gen/**
+**/*.test.ts
+**/*.test.tsx
+src/hooks/test/**
+src/components/**/test/**
+src/components/**/*.test.*

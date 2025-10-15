@@ -1,0 +1,64 @@
+.text-xs {
+  font-size: 0.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+}
+.text-xxs {
+  font-size: 0.625rem;
+}
+.disabled {
+  cursor: not-allowed !important;
+  opacity: 0.65;
+  color: red;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+.full-vh {
+  height: 100vh;
+}
+.page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 1050;
+}
+
+.loader-spinner {
+  width: 4rem;
+  height: 4rem;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+
+.grow-btn {
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.grow-btn:hover {
+  transform: scale(1.1); /* grows 10% */
+}
+
+.w-fit {
+  width: fit-content !important;
+}
+@keyframes flash {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-flash {
+  animation: flash 1s infinite;
+}
