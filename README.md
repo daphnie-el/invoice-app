@@ -44,9 +44,13 @@ Otherwise, I would have handled API data fetching and caching with SWR or React 
 
 While working on this project, I identified several enhancements that could improve the product if it were developed further:
 
-Sorting: Data should be sorted by keys like deadlines and there was no provision for that
+Sorting: Data should be sorted by keys like deadlines and there was no provision for that.
+
 Offline mode with caching	Increases reliability during unstable network conditions	Use service workers or IndexedDB
+
 Advanced form validation	Prevents data entry errors and improves UX	Integrate Zod or Yup for schema validation
+
+
 
 
 ## Tech Stack
@@ -74,16 +78,23 @@ yarn build
 
 To run the project locally:
 
-# Install dependencies
+
+## Install dependencies
+```
 yarn install
+```
 
-# Start development server
+### Start development server
+```
 yarn start
+```
 
-# Build for production
+### Build for production
+```
 yarn build
+```
 
-✨ Summary
+## Summary
 
 This project showcases my ability to:
 
